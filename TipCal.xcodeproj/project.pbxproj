@@ -14,6 +14,7 @@
 		3F398D9D2145EE14009AE68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F398D9B2145EE14009AE68E /* LaunchScreen.storyboard */; };
 		3F398DA82145EE14009AE68E /* TipCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F398DA72145EE14009AE68E /* TipCalTests.swift */; };
 		3F398DB32145EE14009AE68E /* TipCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F398DB22145EE14009AE68E /* TipCalUITests.swift */; };
+		3FE37BF021464AA400B5D3E5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE37BEF21464AA400B5D3E5 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F398DAE2145EE14009AE68E /* TipCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F398DB22145EE14009AE68E /* TipCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalUITests.swift; sourceTree = "<group>"; };
 		3F398DB42145EE14009AE68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE37BEF21464AA400B5D3E5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3F398D862145EE12009AE68E = {
 			isa = PBXGroup;
 			children = (
+				3FE37BEF21464AA400B5D3E5 /* SettingsViewController.swift */,
 				3F398D912145EE12009AE68E /* TipCal */,
 				3F398DA62145EE14009AE68E /* TipCalTests */,
 				3F398DB12145EE14009AE68E /* TipCalUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				3F398D952145EE12009AE68E /* ViewController.swift in Sources */,
 				3F398D932145EE12009AE68E /* AppDelegate.swift in Sources */,
+				3FE37BF021464AA400B5D3E5 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TipCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TipCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
